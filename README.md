@@ -24,10 +24,6 @@ IE153-S and IE154-S are part of the broader IE15x-S sequence; no presentations o
 
 ```
 .
-├── docs/
-│   ├── IE152-S_Content_Standards.md          # notebook & presentation content playbook
-│   └── IE152-S_Presentation_Design_Principles.md  # Beamer build standard (house style for all IE15x-S decks)
-│
 ├── IE152-S/
 │   ├── Module1/
 │   │   ├── presentations/
@@ -78,10 +74,10 @@ IE153-S and IE154-S are part of the broader IE15x-S sequence; no presentations o
 
 ## Standards
 
-All materials follow the house standards documented in `/docs`:
+All materials follow a set of house standards maintained by the instructor:
 
-- **`IE152-S_Content_Standards.md`** — audience profile, notebook section structure (Concept Primer → Worked Example → Guided Practice → Independent Activity → Wrap-Up), code style rules, dataset conventions, and file naming.
-- **`IE152-S_Presentation_Design_Principles.md`** — Beamer workflow (discuss → build in batches of 6–8 slides → render → inspect), engine constraints (`pdflatex`-safe only), color theming, reusable macros, and documented pitfalls. This doc is the standing baseline for **all** IE15x-S decks, not just IE152-S.
+- **Content Standards** — audience profile, notebook section structure (Concept Primer → Worked Example → Guided Practice → Independent Activity → Wrap-Up), code style rules, dataset conventions, and file naming.
+- **Presentation Design Principles** — Beamer workflow (discuss → build in batches of 6–8 slides → render → inspect), engine constraints (`pdflatex`-safe only), color theming, reusable macros, and documented pitfalls. This standard is the baseline for **all** IE15x-S decks, not just IE152-S.
 
 **Audience:** Third-year Industrial Engineering majors — no CS background assumed. Notebooks emphasize demystified, explicit code (no comprehensions/lambdas) over Pythonic compactness; presentations are visual-first with minimal, always-annotated math notation.
 
